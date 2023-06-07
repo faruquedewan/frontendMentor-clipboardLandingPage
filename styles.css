@@ -201,9 +201,14 @@ footer a {
     color: var(--strongCyan);
 }
 
+.footer-end img {
+    filter: grayscale(1) brightness(.4);
+}
+
 .footer-start a:hover, .footer-end img:hover {
     cursor: pointer;
     color: var(--strongCyan);
+    filter: unset;
 }
 
 .footer-end p {
